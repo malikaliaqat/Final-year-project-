@@ -42,19 +42,27 @@ class _StarupViewState extends State<StartupView> {
       body: Stack(
         alignment: Alignment.center,
         children: [
-          Image.asset(
-            "assets/img/logo_img.png",
-            width: media.width,
-            height: media.height,
-            fit: BoxFit.cover,
-          ),
+          // Image.asset(
+          //   "assets/img/logo_img.png",
+          //   width: media.width,
+          //   height: media.height,
+          //   fit: BoxFit.cover,
+          // ),
 
           // Image.asset(
-          //   "assets/img/app_logo.png",
+          //  "assets/img/logo_img.png",
           //   width: media.width * 0.55,
           //   height: media.width * 0.55,
           //   fit: BoxFit.contain,
           // ),
+          Center(
+            child: Image.asset(
+              "assets/img/logo_img.png",
+              width: media.width * 3,
+              height: media.width * 3,
+              fit: BoxFit.contain,
+            ),
+          )
         ],
       ),
     );

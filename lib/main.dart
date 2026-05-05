@@ -25,12 +25,12 @@ void main() async {
     ServiceCall.userPayload = Globs.udValue(Globs.userPayload);
   }
 
-  // runApp(const MyApp(
-  //   defaultHome: StartupView(),
-  // ));
   runApp(const MyApp(
-    defaultHome: MainTabView(),
+    defaultHome: StartupView(),
   ));
+  // runApp(const MyApp(
+  //   defaultHome: MainTabView(),
+  // ));
 }
 
 void configLoading() {
@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Food Delivery',
+      title: 'Bite Buzz',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: "Metropolis",
