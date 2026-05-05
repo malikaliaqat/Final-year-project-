@@ -1,16 +1,3 @@
-# newflutterproject
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Final-year-project-
+This project is an Android application built with Flutter and Dart, using Laravel as the backend API. It integrates AI features to provide intelligent user interactions. Developed as a final year project, it demonstrates full-stack mobile development with AI integration.
+>>>>>>> 6fd1a560987c60a9dab52867429aa3511e0e6207
